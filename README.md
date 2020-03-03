@@ -1,4 +1,4 @@
-# mlflow_models_deploy_docker
+# mlflow-models-deploy-docker
 
 Prebuilt docker image for deploying models via **MLflow** in docker container.
 
@@ -45,3 +45,4 @@ docker run -v /host/path/to/google_credentials.json:/docker/path/to/google_crede
 ```bash
 curl -X POST http://localhost:5000/invocations -H 'Content-Type: application/json; format=pandas-records' -d '[[1,2,3,4,...]]'
 ```
+
